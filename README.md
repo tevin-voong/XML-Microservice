@@ -8,6 +8,8 @@ This microservice takes in a request for the filename of a specific XML file and
 The contents of that XML file are then sent back to the requesting program. This microservice uses ZeroMQ to facilitate
 the request and response for data.
 
+![UML Sequence Diagram](https://github.com/tevin-voong/XML-Microservice/blob/main/Microservice%20UML%20Diagram.png)
+
 ## Setup
 
 Install [ZeroMQ](https://zeromq.org/languages/python/)
