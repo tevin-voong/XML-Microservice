@@ -29,4 +29,9 @@ Requesting program can request for the specific XML file by using the example co
 socket.send_string('example.xml')
 ```
 
+Requesting program receives data by using the socket.recv() function. See below for an example
+```python
+example_data = socket.recv()
+```
+
 Make request from main program and then run microservice.py. The contents of the XML file specified will be returned to the program sending the request.
